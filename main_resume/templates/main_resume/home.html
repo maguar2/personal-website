@@ -1,0 +1,92 @@
+{% extends "main_resume/base.html" %}
+{% load static %}
+{% block content %}  
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card card-body h-100 border-info" id="profile-wrapper">
+          <img id="profile-pic" src="{% static 'images/patrick.jpg' %}" >
+          <br>
+          <h4>Hi, I'm Patrick!</h4>
+          <p>A beginner in django/Python but absolutely loving it.</p>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="card card-body h-100 border-info">
+          <h4>My First Job as a Developer</h4>
+          <br>
+          <p>Three months after writting my first hello world program on september 8 2017 (while
+            working in the marketing department) i had convinced my boss to let me take a stab 
+            at building a better version of the outdated labouratory management system my company
+            was running on.</p>
+
+          <p>Before i knew it we transitioned from the old system and we're on to mine. My newbie
+            self was now incharge of hosting hundreds of thousands of lab samples and supporting 
+            thousands of clients.</p>
+            
+          <p>from this you'll see that i'm someone that jumps before i can talk myself out of
+            doing something scary.</p>
+            
+          <ul class="social-links">
+            <li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+            <li><img class="social" src="{% static 'images/linkedIn.png' %}"></li>
+            <li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+            <li><img class="social" src="{% static 'images/github.png' %}"></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card card-body h-100">
+          <h5>My Experience as a developer</h5>
+          <br>
+          <p>Full Stack developer at foi labouratories.</p>
+          <p>Designed, built and managed a lab management system as a sole developer. System 
+          supported thouands of customers with a UI for Lab admins and a customer dashboard.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card card-body h-100">
+          <h5>What I know</h5>
+          <br>
+          <p>Python, Django, HTML/CSS, Javascript/Jquery, React, Postgres, AWS and APIs such
+          as google maps, Javascript charts and a whole bunch more i can't possibly in one
+          sentence! ;)</p>
+          <p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card card-body h-100">
+          <h5>How I Learn</h5>
+          <br>
+          <p>Reverse Engineer and build ugly Prototypes First.</p>
+
+          <p>I can learn just about anything by having a final product to tear apart piece by
+            piece. I break the code where i need to figure out why things work the way they do.
+            Documentation is just a reference.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card card-body h-100">
+          <h5>My Short Term Goals</h5>
+          <br>
+          <p>After almost two years of supporting my system at the lab i'm read to learn something
+          new. I'll be collaborating and sharing my experience with others on my blog jjknfnfdnz,m
+          klfkzkzjvfzv,mzf.</p>          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+
+{% endblock content %}
