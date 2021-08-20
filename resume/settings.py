@@ -26,7 +26,7 @@ with open('main_resume/others/s_k.txt') as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['maguarhub.herokuapp.com']
+ALLOWED_HOSTS = ['maguarhub.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
